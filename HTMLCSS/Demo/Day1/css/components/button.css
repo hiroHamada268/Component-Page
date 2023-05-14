@@ -1,0 +1,28 @@
+.button {
+  height: var(--height-primary);
+  border-radius: var(--border-radius);
+  border-width: unset;
+  padding: 0 12px;
+}
+
+/* =========== Button =========== */
+
+.button__text {
+  margin: 24px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #019160;
+  border: 0;
+  font-size: 13px;
+  color: #fff;
+  padding: 0 24px;
+  text-align: center;
+}
+
+.button__text:hover {
+  background-color: #2fbe8e;
+}
+
+.button__text:focus {
+  background-color: #01b075;
+}

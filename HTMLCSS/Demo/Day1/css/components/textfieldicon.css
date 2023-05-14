@@ -1,0 +1,24 @@
+.textfield__content {
+  display: flex;
+  text-align: center;
+}
+
+.textfield__content div {
+  display: inline-block;
+  border: 1px solid #50b83c;
+}
+
+.textfield__content input {
+  border: 0;
+  padding: 7px 118px 7px 8px;
+}
+
+.textfield__content svg {
+  display: inline;
+  align-items: center;
+}
+
+.textfield__content input:focus-visible {
+  outline: none;
+  border: 0;
+}

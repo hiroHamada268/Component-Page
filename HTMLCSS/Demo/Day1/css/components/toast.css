@@ -1,0 +1,28 @@
+.div__toast {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: var(--border-radius);
+  box-shadow: 0 2px 10px #8a8888;
+  width: 200px;
+  padding: 5px 10px;
+}
+
+.div__toast--content {
+  font-size: 13px;
+  font-family: Arial;
+  font-weight: 500;
+}
+
+.div__toast--icon {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+
+.div__toast--close {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  color: #ffcece;
+}

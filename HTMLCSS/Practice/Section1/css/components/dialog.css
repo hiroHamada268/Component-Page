@@ -1,0 +1,131 @@
+.dialog-1 {
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; */
+}
+
+.dialog {
+  display: inline-block;
+  border-radius: var(--border-radius-primary);
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+}
+
+.dialog__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dialog__header-title {
+  min-width: 200px;
+  font-size: 20px;
+  font-weight: 700;
+  max-width: 400px;
+}
+
+.dialog__header-close {
+  font-size: 12px;
+}
+
+.dialog__des {
+  margin-top: 24px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #1f1f1f;
+  max-width: 400px;
+}
+
+.dialog__button {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 24px;
+}
+
+.dialog__button-cancel {
+  border: none;
+  min-width: 80px;
+  background-color: #fff;
+  padding: 8px 16px;
+  border: 1px solid;
+  border-radius: var(--border-radius-primary);
+  border-color: var(--border-color-primary);
+}
+
+.dialog__button-cancel:hover {
+  background-color: #f6f6f6;
+  cursor: pointer;
+}
+.dialog__button-cancel:focus {
+  background-color: #ebebeb;
+}
+
+.dialog__button-ok {
+  border: none;
+  min-width: 80px;
+  margin-left: 8px;
+  background-color: var(--background-color-primary);
+  border-radius: var(--border-radius-primary);
+  padding: 8px 19px;
+  color: var(--color-primary);
+  font-weight: var(--font-weight-primary);
+  height: 36px;
+}
+
+/* === Dialog-2-warning === */
+.dialog-2 {
+}
+
+.dialog-warning {
+  display: inline-block;
+  border-radius: var(--border-radius-primary);
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+}
+
+.dialog-warning__notification {
+  display: flex;
+  column-gap: 20px;
+  max-width: 300px;
+}
+
+.dialog-warning__icon {
+}
+
+.dialog-warning__icon i {
+  color: yellow;
+  font-size: 30px;
+  width: 20px;
+  height: 25px;
+}
+
+.dialog-warning__content {
+}
+
+.dialog-warning__notification--footer {
+  border-top: 1px solid #ccc;
+  padding: 20px 0;
+  margin-top: 30px;
+}
+
+.dialog__button-ok {
+  float: right;
+}
+
+/* === Dialog-3 === */
+.min-width-dialog {
+  width: 400px !important;
+}
+
+.min-height-dialog {
+  height: 191px !important;
+}
+
+.btn-color-delete {
+  background-color: #e81e1e;
+}
+
+.dialog__button-delete:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}

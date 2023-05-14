@@ -1,0 +1,30 @@
+.button__icon {
+  margin: 24px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #019160;
+  border: 0;
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.button__icon img {
+  padding: 0 8px 0 16px;
+}
+
+.button__icon p {
+  padding-right: 16px;
+}
+
+.button__icon:hover {
+  background-color: #2fbe8e;
+}
+
+.button__icon:focus {
+  background-color: #01b075;
+}

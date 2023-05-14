@@ -1,0 +1,19 @@
+.textfield {
+  display: flex;
+  flex-direction: column;
+}
+
+.textfield .label__textfield {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.textfield .lable__text {
+  width: 175px;
+  height: 24px;
+  padding: 7px;
+
+  border: 1px solid #ebebeb;
+  border-radius: var(--border-radius);
+  text-align: left;
+}

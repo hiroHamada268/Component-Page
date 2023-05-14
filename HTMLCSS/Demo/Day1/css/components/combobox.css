@@ -1,0 +1,16 @@
+/* =========== Combobox =========== */
+
+.label__text {
+  font-size: 13px;
+  color: #000000;
+}
+
+.select__info {
+  border: 1px solid;
+  border-radius: 4px;
+  height: 40px;
+  padding-left: 16px;
+
+  font-size: 11px;
+  color: #bbbbbb;
+}

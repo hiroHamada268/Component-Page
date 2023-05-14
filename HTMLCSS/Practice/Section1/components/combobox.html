@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="combobox-1">
+      <div class="combobox">
+        <label class="combobox__label">Label </label>
+        <div class="combobox-outline">
+          <div class="combobox-validate input-hover">
+            <input
+              class="combobox-validate__placeholder input-hover"
+              type="text"
+              placeholder="Type here"
+            />
+            <i onclick="toggleCombobox()" class="combobox-validate__icon">
+              <i class="fa-solid fa-chevron-down"></i>
+            </i>
+          </div>
+        </div>
+
+        <div id="comboboxId" class="combobox__content">
+          <div class="combobox__content-val">
+            <p>- Chọn giá trị -</p>
+          </div>
+          <div class="combobox__content-val">
+            <p>Hà Nội</p>
+            <i class="fa-solid fa-check"></i>
+          </div>
+          <div class="combobox__content-val">TP.Hồ Chí Minh</div>
+          <div class="combobox__content-val">TP.Hồ Chí Minh</div>
+          <div class="combobox__content-val">TP.Hồ Chí Minh</div>
+          <div class="combobox__content-val">TP.Hồ Chí Minh</div>
+          <div class="combobox__content-val">TP.Hồ Chí Minh</div>
+          <div class="combobox__content-val">TP.Hồ Chí Minh</div>
+          <div class="combobox__content-val">TP.Hồ Chí Minh</div>
+          <div class="combobox__content-val">TP.Hồ Chí Minh</div>
+          <div class="combobox__content-val">TP.Hồ Chí Minh</div>
+          <div class="combobox__content-val">TP.Hồ Chí Minh</div>
+          <div class="combobox__content-val">TP.Hồ Chí Minh</div>
+          <div class="combobox__content-val">TP.Hồ Chí Minh</div>
+          <div class="combobox__content-val">TP.Hồ Chí Minh</div>
+          <div class="combobox__content-val">TP.Hồ Chí Minh</div>
+          <div class="combobox__content-val">TP.Hồ Chí Minh</div>
+          <div class="combobox__content-val">TP.Hồ Chí Minh</div>
+          <div class="combobox__content-val">TP.Hồ Chí Minh</div>
+          <div class="combobox__content-val">TP.Hồ Chí Minh</div>
+          <div class="combobox__content-val">TP.Hồ Chí Minh</div>
+          <div class="combobox__content-val">TP.Hồ Chí Minh</div>
+          <div class="combobox__content-val">TP.Hồ Chí Minh</div>
+          <div class="combobox__content-val">TP.Hồ Chí Minh</div>
+          <div class="combobox__content-val">TP.Hồ Chí Minh</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="combobox-2"></div>
+
+    <div class="combobox-3">
+      <div class="mconboxbox">
+        <input type="text" />
+        <button class="mcombobox__icon"></button>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  function toggleCombobox() {
+    var comboBox = document.getElementById("comboboxId");
+
+    if (comboBox.style.display === "block") {
+      comboBox.style.display = "none";
+    } else {
+      comboBox.style.display = "block";
+    }
+  }
+</script>

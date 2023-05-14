@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="dialog-1">
+      <div class="dialog">
+        <div class="dialog__header">
+          <div class="dialog__header-title">Tiêu đề</div>
+          <div class="dialog__header-close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+        <div class="dialog__des">Mô tả</div>
+        <div class="dialog__button">
+          <button class="dialog__button-cancel">Cancel</button>
+          <button class="dialog__button-ok btn-hover">Ok</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="dialog-2">
+      <div class="dialog-warning">
+        <div class="dialog-warning__notification">
+          <div class="dialog-warning__icon">
+            <i class="fas fa-exclamation-triangle"></i>
+          </div>
+          <div class="dialog-warning__content">
+            Mỗi dialog nên thể hiện cho 1 hành động duy nhất, với 1 chuỗi các
+            hành động, nên xem xét việc dùng Popup với các bước riêng biệt.
+          </div>
+        </div>
+        <div class="dialog-warning__notification--footer">
+          <button class="dialog__button-ok btn-hover">Ok</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="dialog-3">
+      <div class="dialog min-width-dialog">
+        <div class="dialog__header">
+          <div class="dialog__header-title">Tiêu đề</div>
+          <div class="dialog__header-close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+        <div class="dialog__des">
+          Bạn có chắc muốn xóa nhân viên đã chọn không?
+        </div>
+        <div class="dialog__button">
+          <button class="dialog__button-cancel">Không</button>
+          <button
+            class="dialog__button-ok dialog__button-delete btn-color-delete"
+          >
+            Có, xóa nhân viên
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

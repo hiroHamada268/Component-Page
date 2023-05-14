@@ -1,0 +1,15 @@
+.mcombobox {
+}
+
+.mcombobox__input {
+  height: 36px;
+  padding: 0 1;
+}
+
+.mcombobox__button {
+  height: 36px;
+  width: 36px;
+  flex-shrink: 0;
+  flex-basis: 36px;
+  border: 1px solid #afafaf;
+}

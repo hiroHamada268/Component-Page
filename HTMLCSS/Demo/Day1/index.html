@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MISA - SOFTWARE MANAGE</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="row">
+      <!-- ======== Button ========  -->
+      <div class="">
+        <h1>Button</h1>
+        <button class="button__text">Nộp hồ sơ</button>
+
+        <button class="button__icon">
+          <img src="./assets/icon/add.png" alt="" />
+          <p>Thêm mới</p>
+        </button>
+      </div>
+
+      <!-- ======== Text Field ========  -->
+      <div class="textfield">
+        <h1>TextField(Input)</h1>
+        <label class="label__textfield">Label</label>
+        <input
+          type="text"
+          name="input"
+          class="lable__text"
+          placeholder="Placeholder"
+        />
+      </div>
+
+      <div class="textfield__icon">
+        <label class="label__textfield">Label</label>
+        <div class="textfield__content">
+          <div class="">
+            <input
+              type="text"
+              name="input"
+              class="lable__text"
+              placeholder="Placeholder"
+            />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-x div__toast--close"
+            >
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- ======== Combobox ========  -->
+      <div class="">
+        <h1>Combobox</h1>
+        <label for="" class="lable__text">Chọn tháng</label>
+        <button class="button__dropdown">
+          <img src="./assets/icon/add.png" alt="" />
+          <span class="">
+            <p>Thêm mới</p>
+          </span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="25"
+            height="24"
+            viewBox="0 0 25 24"
+            class="arrow-down"
+          >
+            <defs>
+              <style>
+                .a,
+                .b {
+                  fill: #ffff;
+                }
+                .a {
+                  opacity: 0;
+                }
+              </style>
+            </defs>
+            <rect class="a" width="25" height="24" />
+            <path
+              class="b"
+              d="M12,15.5a1,1,0,0,1-.71-.29l-4-4A1,1,0,0,1,8.71,9.79L12,13.1l3.3-3.18a1,1,0,1,1,1.38,1.44l-4,3.86A1,1,0,0,1,12,15.5Z"
+              transform="translate(0.501)"
+            />
+          </svg>
+        </button>
+
+        <select class="select__info" name="cars" id="cars">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option>
+        </select>
+      </div>
+
+      <!-- ======== Toast ========  -->
+      <div>
+        <h1 class="">Toast</h1>
+        <div class="div__toast">
+          <img
+            class="div__toast--icon"
+            src="./assets/icon/warning.png"
+            alt=""
+          />
+          <div class="div__toast--content">Nội dung đi kèm tiêu đề</div>
+          <i>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-x div__toast--close"
+            >
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </i>
+        </div>
+      </div>
+
+      <!-- ======== Popup ========  -->
+      <div>Popup</div>
+
+      <div class="popup">
+        <div class="popup__header">
+          <div class="popup__title">
+            <h1>Tiêu đề</h1>
+          </div>
+
+          <div class="popup__button--close">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-x div__toast--close"
+            >
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </div>
+        </div>
+
+        <div class="popup_content">Mô tả</div>
+
+        <div class="popup__button">
+          <button class="btn1">
+            <p>Button 2</p>
+          </button>
+          <button class="btn2">
+            <p>Button 1</p>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
